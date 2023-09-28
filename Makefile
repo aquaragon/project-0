@@ -8,6 +8,6 @@
 
 install:
 	# Nothing installed
-
+	mv credentials.ini ./hello
 run:
 	@(cd hello; python3 hello.py)
